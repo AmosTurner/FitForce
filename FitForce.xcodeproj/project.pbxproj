@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6078ABA729D4AB7E006276F2 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6078ABA629D4AB7E006276F2 /* HealthKit.framework */; };
+		6078ABAB29D4AEBF006276F2 /* SetGoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6078ABAA29D4AEBF006276F2 /* SetGoalsViewController.swift */; };
 		60913A3029C16F73008F5194 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60913A2F29C16F73008F5194 /* AppDelegate.swift */; };
 		60913A3229C16F73008F5194 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60913A3129C16F73008F5194 /* SceneDelegate.swift */; };
 		60913A3429C16F73008F5194 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60913A3329C16F73008F5194 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6078ABA629D4AB7E006276F2 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		6078ABAA29D4AEBF006276F2 /* SetGoalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGoalsViewController.swift; sourceTree = "<group>"; };
 		60913A2C29C16F73008F5194 /* FitForce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitForce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60913A2F29C16F73008F5194 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60913A3129C16F73008F5194 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,17 +35,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6078ABA729D4AB7E006276F2 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6078ABA529D4AB7E006276F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6078ABA629D4AB7E006276F2 /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		60913A2329C16F73008F5194 = {
 			isa = PBXGroup;
 			children = (
 				60913A2E29C16F73008F5194 /* FitForce */,
 				60913A2D29C16F73008F5194 /* Products */,
+				6078ABA529D4AB7E006276F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,12 +74,7 @@
 				60913A4529C16FF5008F5194 /* Classes */,
 				60913A4429C16FBC008F5194 /* Images */,
 				60913A4329C16FA8008F5194 /* Controllers */,
-				60913A2F29C16F73008F5194 /* AppDelegate.swift */,
-				60913A3129C16F73008F5194 /* SceneDelegate.swift */,
-				60913A3329C16F73008F5194 /* ViewController.swift */,
-				60913A3529C16F73008F5194 /* Main.storyboard */,
 				60913A3829C16F75008F5194 /* Assets.xcassets */,
-				60913A3A29C16F75008F5194 /* LaunchScreen.storyboard */,
 				60913A3D29C16F75008F5194 /* Info.plist */,
 			);
 			path = FitForce;
@@ -74,6 +83,8 @@
 		60913A4329C16FA8008F5194 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				60913A3329C16F73008F5194 /* ViewController.swift */,
+				6078ABAA29D4AEBF006276F2 /* SetGoalsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -88,6 +99,8 @@
 		60913A4529C16FF5008F5194 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				60913A2F29C16F73008F5194 /* AppDelegate.swift */,
+				60913A3129C16F73008F5194 /* SceneDelegate.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -95,6 +108,8 @@
 		60913A4629C1700C008F5194 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				60913A3529C16F73008F5194 /* Main.storyboard */,
+				60913A3A29C16F75008F5194 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -170,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6078ABAB29D4AEBF006276F2 /* SetGoalsViewController.swift in Sources */,
 				60913A3429C16F73008F5194 /* ViewController.swift in Sources */,
 				60913A3029C16F73008F5194 /* AppDelegate.swift in Sources */,
 				60913A3229C16F73008F5194 /* SceneDelegate.swift in Sources */,
